@@ -1,4 +1,53 @@
-.main-para {
+/* .main-para {
     font-size: 1.5em;
-    line-height: 1.5em;
+    line-height: 1.5em; 
 }
+/* Sizes the image */
+/* img {
+    width: 50%
+} */
+/* Sizes the paragraph */
+/* p {
+    width: 70%
+} */
+/* Sizes the navigation */
+/* a {
+    font-size: 1.5em;
+} */
+/* Places a border around every element */
+/* * {
+    border: 2px solid blue;
+} */
+/* Centering different elements */
+/* body {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+nav, footer {
+    text-align: center;
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+main p {
+    width: 80%;
+    margin: 0 auto;
+} */
+/* Gives color to nav and footer */
+/* nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+} */
+/* footer p{
+    font-size: 20px;
+    margin: 20px
+} */
+/* a:hover {    
+    background-color: #000000;   
+     color: steelblue;
+} */

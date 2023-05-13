@@ -1,0 +1,48 @@
+body {
+  background-color: #eba5b1;
+  color: white;
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+}
+header {
+  color: white;
+  max-width: 500px;
+  margin: 0 auto;
+  padding:0 4em;
+  font-size: 18px;
+  text-align: center;
+}
+h1:hover{
+  color: black;
+}
+img {
+  max-width: 300px;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+}
+h4 {
+  color: black;
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: left;
+  display: block;
+}
+div {
+  color: white;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 4em;
+  font-size: 30px;
+  text-align: center;
+}
+footer {
+  color: black;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+}
