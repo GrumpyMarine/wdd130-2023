@@ -1,0 +1,87 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    color: #5bee36;
+    text-decoration: none;
+}
+#hero-msg {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+    background-color: #000000;
+}
+:root {
+/* change the values below to your colors from your palette */
+--primary-color: #eb2a2a   ;
+--secondary-color: #5bee36 ;
+--accent1-color: #5783ac;
+--accent2-color: #000000;
+}
+
+body {
+    background-color: #5783ac;
+}
+header {
+    background-color: #5783ac;
+    color: #000000;
+}
+nav a:hover {
+    background-color:#5bee36 ;
+    color: #000000;
+}
+#book {
+    text-decoration: none;
+    background-color: #5783ac;
+    color: #5bee36;
+}
+.join {
+    text-align: center;
+    text-decoration: none;
+    background-color: #5783ac;
+    color: #5bee36;
+}
+#book:hover {
+    text-decoration: none;
+    background-color: #5bee36;
+    color: #000000;
+}
+.join:hover {
+    text-align: center;
+    text-decoration: none;
+    background-color: #5bee36;
+    color: #000000;
+}
+.msg {background-color:#5783ac ;
+}
+footer {
+    font-size: 1.2em;
+    background-color: #5783ac;
+}
+.logo {
+    width: 80px
+}
+.icon {
+    width: 80px;
+}
+#hero-img {
+    width: 100% ;
+}
+footer p a:hover {
+    text-decoration: underline;
+    color: #5bee36;
+}    
+footer p a {
+    color: #000000;
+    text-decoration: none;
+}
