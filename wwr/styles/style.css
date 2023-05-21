@@ -1,12 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #5783ac;
+    --secondary-color: #5bee36;
+    --accent1-color: #ED1C24;
+    --accent2-color: #000000;
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Bruno Ace SC";
+    --paragraph-font: Bruno Ace, Helvetica, sans-serif;
+}
+
+.home-title {
+    font-size: 3em;
+    margin-top: 200px;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    font-family: 'Bruno Ace SC', 'Bradley Hand', sans-serif;
 }
+
+.msg {
+    background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+.msg h2 {
+    color: #5783ac;
+}
+
 nav a {
     text-align: center;
     color: #5bee36;
     text-decoration: none;
+    padding: 35px;
 }
+
 #hero-msg {
     text-align: center;
 }
@@ -14,74 +51,129 @@ nav a {
 .button-box {
     text-align: center;
 }
+
 main section {
     text-align: center;
 }
+
 #background {
     height: 725px;
     background-color: #000000;
 }
-:root {
-/* change the values below to your colors from your palette */
---primary-color: #eb2a2a   ;
---secondary-color: #5bee36 ;
---accent1-color: #5783ac;
---accent2-color: #000000;
-}
+
 
 body {
     background-color: #5783ac;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
+
+h2 {
+    margin: 0;
+    color: #ffffff;
+}
+
 header {
     background-color: #5783ac;
     color: #000000;
 }
+
 nav a:hover {
-    background-color:#5bee36 ;
+    background-color: #5bee36;
     color: #000000;
 }
+
+nav a {
+    padding: 35px;
+}
+
 #book {
     text-decoration: none;
     background-color: #5783ac;
     color: #5bee36;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 30px;
+    font-size: 21px;
 }
+
 .join {
-    text-align: center;
     text-decoration: none;
     background-color: #5783ac;
     color: #5bee36;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 30px;
+    font-size: 21px;
 }
+
 #book:hover {
     text-decoration: none;
     background-color: #5bee36;
     color: #000000;
 }
+
 .join:hover {
     text-align: center;
     text-decoration: none;
     background-color: #5bee36;
     color: #000000;
 }
-.msg {background-color:#5783ac ;
-}
+
+
 footer {
     font-size: 1.2em;
-    background-color: #5783ac;
+    background-color: white;
+    margin-top: 200px;
 }
+
 .logo {
-    width: 80px
-}
-.icon {
     width: 80px;
 }
-#hero-img {
-    width: 100% ;
+
+#logo_link {
+    padding-top: 5px;
 }
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
 footer p a:hover {
     text-decoration: underline;
     color: #5bee36;
-}    
+}
+
 footer p a {
     color: #000000;
     text-decoration: none;
+}
+
+h4 {
+    font-size: 1.5em
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #000000;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+footer .social img {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
