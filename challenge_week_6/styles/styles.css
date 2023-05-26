@@ -1,0 +1,17 @@
+h1 {
+    font-size: 500%;
+}
+h2 {
+    position: absolute;
+    left: 0;
+    width: 200px;
+}
+h3 {
+    position: absolute;
+    top: 80px;
+    right: 0%;
+    width: 200px;
+    font-size: 250%;
+    text-decoration-color: crimson;
+    text-align: right;
+}
