@@ -123,8 +123,6 @@ nav a:hover {
     color: #000000;
 }
 
-
-
 .book {
     text-decoration: none;
     background-color: #5783ac;
@@ -134,6 +132,12 @@ nav a:hover {
     border-radius: 30px;
     font-size: 21px;
 }
+.book2 {
+    text-decoration:bold;
+    color:#5bee36;
+    font-size: 21px;
+}
+
 
 .join {
     text-decoration: none;
@@ -234,6 +238,35 @@ footer p a {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.salmon-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    width: 100%;
+}
+
+.desolation-card {
+    width: 100%;
+    grid-column: 5/7;
+    grid-row: 2/3;
+
+}
+
+.grandcanyon-card {
+    width: 100%;
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+.card-img {
+    border: 10px solid #000000;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
 main section img {
     box-sizing: border-box;
 }
