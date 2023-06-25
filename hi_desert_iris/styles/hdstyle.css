@@ -117,7 +117,7 @@ h7 {
 .page-2-home-grid {
   text-align: center;
   display: grid;
-  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr, 1fr, 1fr;
   padding-top: 90px;
 }
@@ -297,18 +297,6 @@ footer p a {
   text-decoration: none;
 }
 
-.card-img:hover {
-  /* opacity: 100; */
-  transform: scale(1.5);
-}
-
-.card-img {
-  border: 10px solid #000000;
-  transition: transform .5s;
-  box-shadow: 5px 5px 10px #38a9d7;
-  height: 300px;
-
-}
 
 
 footer .social img {
