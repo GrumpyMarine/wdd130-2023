@@ -222,6 +222,7 @@ section img{
 .directory {
   grid-column: 1/2;
   grid-row: 1/3;
+  width: 100px;
 }
 .signup {
   grid-column: 3/4;
