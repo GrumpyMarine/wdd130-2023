@@ -101,79 +101,78 @@ h2 {
   text-align: center;
   color: var(--secondary-color);
   font-size: 60px;
+  padding: 20px 0;
+  text-shadow:3px 4px 7px #fdc80d;
 }
 
 .page-2-home-grid {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  padding-top: 90px;
+  grid-template-rows: 300px 300px 300px;
+  /* padding-top: 90px; */
+  
 }
 
 .partsofiris {
-  border: 10px solid #000000;
-  transition: transform .5s;
-  box-shadow: 5px 5px 10px #38a9d7;
-  /* height: auto; */
+ 
   grid-column: 1/2;
   grid-row: 1/4;
+  
+}
+.partsofiris-img {
+  height: 900px;
+  border: #38a9d7 5px solid;
 }
 
 .zones_types {
-  border: 10px solid #000000;
-  transition: transform .5s;
-  box-shadow: 5px 5px 10px #38a9d7;
-  /* height: 300px; */
   grid-column: 2/3;
   grid-row: 1/2;
-}
-section img{
-  max-width: 400px;
-}
-.typessofiris {
-  border: 10px solid #000000;
-  transition: transform .5s;
-  box-shadow: 5px 5px 10px #38a9d7;
-  width: 400px;
-  grid-column: 2/3;
-  grid-row: 2/3;
+  /* max-width: 500px; */
+  /* max-height: 100%; */
 }
 
+.typessofiris {
+  /* object-fit: cover; */
+  /* max-width: 500px; */
+  /* max-height: 100%; */
+  grid-column: 2/3;
+  grid-row: 2/3;
+ 
+}
+.irisbunch {
+  
+  grid-column: 3/3;
+  grid-row: 1/3;
+}
 .iris-card {
-  border: 10px solid #000000;
-  transition: transform .5s;
-  box-shadow: 5px 5px 10px #38a9d7;
-  width: 400px;
-  grid-column: 3/4;
+  
+  grid-column: 2/3;
   grid-row: 1/2;
 }
 
 .fieldiris {
-  border: 10px solid #000000;
-  transition: transform .5s;
-  box-shadow: 5px 5px 10px #38a9d7;
-  width: 400px;
-  grid-column: 3/4;
-  grid-row: 3/4;
+  
+  grid-column: 3/3;
+  grid-row: 3/3;
 }
 
 .daylily-card {
-  border: 10px solid #000000;
-  transition: transform .5s;
-  box-shadow: 5px 5px 10px #38a9d7;
-  width: 400px;
+ 
   grid-column: 3/3;
   grid-row: 2/2;
 }
 
 .whentoplant {
-  border: 10px solid #000000;
-  transition: transform .5s;
-  box-shadow: 5px 5px 10px #38a9d7;
-  width: 400px;
   grid-column: 2/3;
   grid-row: 3/4;
+  /* max-width: 500px; */
+  /* max-height: 100%; */
+}
+.flower {
+  width: 400px;
+  height: 300px;
+  border: #38a9d7 5px solid;
 }
 
 .membership {
@@ -189,19 +188,12 @@ section img{
   grid-row: 1/3;
 }
 
-.irisbunch {
-  border: 10px solid #000000;
-  transition: transform .5s;
-  box-shadow: 5px 5px 10px #38a9d7;
-  /* height: 300px; */
-  grid-column: 1/2;
-  grid-row: 3/4;
-}
+
 
 .longiris {
   border: 10px solid #000000;
   transition: transform .5s;
-  box-shadow: 5px 5px 10px #38a9d7;
+  /* box-shadow: 5px 5px 10px #38a9d7; */
   /* height: 300px; */
   grid-column: 2/3;
   grid-row: 1/4;
